@@ -1,8 +1,10 @@
 body {
     margin: 0px;
+    color: aliceblue;
 }
 h1 {
     color: blueviolet;
+    font-size: 40px;
 }
 .wrapper {
     margin-left: auto;
@@ -10,4 +12,36 @@ h1 {
     width: 1000px;
     text-align: center;
     background-color: #E6E6E6;
+}
+main p {
+    color: black;
+}
+a {
+    font-size: 25px;
+    text-decoration: none;
+}
+h2 { 
+    color: blueviolet;
+    font-size: 30px;
+}
+img {
+    width: 1000px;
+}
+.arrow {
+    width: 200px;
+    height: 200px;
+    transform: rotate(270deg);
+}
+.arrow2 {
+    width: 200px;
+    height: 200px;
+    transform: rotate(90deg);
+}
+.mail {
+    color: tomato;
+    text-decoration: wavy;
+}
+footer p {
+    color: tomato;
+    font-size: 25px;
 }
